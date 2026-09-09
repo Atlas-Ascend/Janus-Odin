@@ -1,0 +1,24 @@
+schema: ghost-atlas.hypernet.node/v1
+node_id: janus-odin
+repository: Atlas-Ascend/Janus-Odin
+organism_root: Atlas-Ascend/VISHVARUPA-Software-Hardware-Organism
+version: 0.1.0
+lifecycle: active-candidate
+plane: executive-governance
+canonical_role: dual-executive-governance-spine
+authority:
+  owns: [executive-routing-contract, odin-oversight-contract, command-authority-boundary, escalation-policy]
+  does_not_own: [task-execution, quality-self-certification, security-self-certification]
+upstream: [Architect, Atlas-Ascend/JANUS-Human-Admin-Zero, Atlas-Ascend/Atlas-Mind-LLM]
+downstream: [Atlas-Ascend/Janus-Prime, Atlas-Ascend/Packet-OS, Atlas-Ascend/workforce-spine]
+integration:
+  io: Atlas-Ascend/Crowngrid
+  events: Atlas-Ascend/Ghost-Atlas-Estate-Event-Gateway
+  quality: Atlas-Ascend/SECA
+  security: Atlas-Ascend/Medusa-Sovereign-Security
+  memory: Atlas-Ascend/thoth-archive-engine
+  failure: Atlas-Ascend/PROMETHEUS-V-1.1.1
+proof:
+  runtime_state: unverified
+  repository_presence_is_not_runtime_proof: true
+  explicit_human_authority_required_for_destructive_actions: true
