@@ -1,0 +1,31 @@
+schema: ghost-atlas.hypernet.node/v1
+node_id: janus-odin
+repository: Atlas-Ascend/Janus-Odin
+lifecycle: seed
+plane: governance
+canonical_role: executive-authorization-and-field-execution-identity-contract
+authority:
+  janus:
+    - executive-routing
+    - authorization
+    - bounded-command-control
+  odin:
+    - field-execution-identity
+    - mobile-control
+    - device-side-operations
+  does_not_own:
+    - service-registry-truth
+    - transport
+    - finish-truth
+implemented_runtime:
+  - Atlas-Ascend/Janus-Prime
+upstream:
+  - architect
+downstream:
+  - Crowngrid
+  - Packet-OS
+  - workforce-spine
+failure_route:
+  quality: SECA
+  security: Medusa-Sovereign-Security
+proof_gate: SECA
