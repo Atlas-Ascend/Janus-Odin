@@ -1,0 +1,24 @@
+{
+  "receipt_type": "JANUS_AUTHORIZATION_RECEIPT",
+  "campaign_id": "GARI-RP-010",
+  "canary_id": "GARI-RP-010-CANARY-001",
+  "correlation_id": "GA-TRACE-RP010-001",
+  "packet_id": "PKT-GARI-RP010-CANARY-001",
+  "authorized_scope": "Non-destructive GitHub-backed estate canary proving one GARI research packet can traverse JANUS, Packet OS, Workforce Spine, CrownGrid, GARI execution, ProofGrid, and Thoth/LABCORE with independent receipts.",
+  "authorization_source": "interactive_operator_instruction",
+  "authorized_by_role": "Architect / human operator",
+  "authority_owner": "JANUS",
+  "destructive_actions_allowed": false,
+  "scientific_truth_promotion_allowed": false,
+  "canon_supersession_allowed": false,
+  "credential_exposure_allowed": false,
+  "external_side_effect_scope": [
+    "append-only GitHub receipt creation",
+    "GARI canary program artifacts",
+    "cross-repo acknowledgement records"
+  ],
+  "recorded_at": "2026-09-09T19:42:58-07:00",
+  "state": "AUTHORIZED",
+  "next_hop": "Packet OS",
+  "dispatch_claim": "authorization_recorded_not_execution_completed"
+}
